@@ -32,7 +32,7 @@ export const Chat = () => {
       <CardContent>
         <ScrollArea className="h-[520px] w-full pr-4">
           {typeof messages[messages.length - 1]?.content != "string"
-            ? "Gera imagem ao lado do chatBox"
+            ? "Gera imagem ao lado do chatBox (Ainda não tá gerando)"
             : messages.map((message) => (
                 <div
                   key={message.id}
